@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background img{
+    width: 100%;
+    height: 700px;
+}
+.start{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: 660px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: 37px;  
+    display: flex;
+    align-items: center;   
+    cursor: pointer;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 23px;
+    cursor: pointer;
+}
+.menu ul{
+    width: 630px;
+    height: 37px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li:hover{
+    border-bottom:3px solid rgb(252, 227, 138);
+    color: rgb(252, 227, 138);
+}
+.text{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+}
+.creative{
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100px;
+}
+.welcome{
+    font-size: 100px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.line2{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+}
+.line3{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 1px solid rgb(255, 255, 255);
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color:unset;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(252, 227, 138);
+}
+.bottom{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    height: 65px;
+    top: 620px;
+}
+.line4{
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 3px;
+}
+.section p{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 20px;
+}
+.line5{
+    background-color: rgb(243, 129, 129);
+    position: absolute;
+    bottom: 62px;
+    width: 70px;
+    height: 3px;
+    z-index: 3;
+}
+.sec1{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.what{
+    font-size: 24px;
+    font-family: cursive;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+.story{
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.line6{
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+}
+.lorem{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+}
+.line7{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 330px;
+    height: 240px;
+    position: relative;
+    z-index: 2;
+}
+.sec2{
+    width: 100%;
+    height: 315px;
+    display: flex;
+    justify-content: space-around;
+}
+.user{
+    position: absolute;
+    z-index: 1;
+    top: 1070px;
+    width: 330px;
+    height: 240px;
+    display: flex;
+}
+.img:hover{
+    opacity: 0.2;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgb(10, 170, 141);
+}
+.sec3{
+    width: 100%;
+    height: 220px;
+    display: flex;
+}
+.numbers{
+    width: 15.2%;
+    background-color: rgb(149, 225, 211);
+    border: 0.5px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.numbers div{
+    font-size: 72px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 100px;
+}
+.number1{
+    width: 12%;
+    background-color: rgb(149, 225, 211);
+}
+.numbers p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.sec5{
+    width: 330px;
+    height: 120px;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+}
+.sec5{
+    display: flex;
+    justify-content: space-around;
+}
+.photo{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    height: 30px;
+}
+.lorem1{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;
+}
+.sec6{
+    background-image: url(images/Layer\ 45.png);
+    width: 100%;
+    height: 850px;
+    position: relative;
+    z-index: 1;
+}
+.ipad img{
+    width: 503px;
+    height: 511px;
+    position: absolute;
+    z-index: 2;
+    left: 275px;
+    bottom: 0px;
+}
+.iphone img{
+    position: absolute;
+    z-index: 3;
+    left: 611px;
+    bottom: -161px;
+}
+.sec7{
+    width: 100%;
+    height: 200px;
+}

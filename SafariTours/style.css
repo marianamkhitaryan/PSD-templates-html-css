@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.start{
+    background-image: url(img/bg.png);
+    height: 540px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.menu img{
+    position: relative;
+    z-index: 2;
+    left: 115px;
+}
+.logo img{
+    position: absolute;
+    z-index: 4;
+    left: 135px;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 17px;
+    font-family: "AGSouvenir";
+    color: rgb(255, 255, 255);
+}
+header p{
+    position: absolute;
+    z-index: 5;
+}
+.safari{
+    font-size: 33px;
+    font-family: "AGAalenBold";
+    color: rgb(41, 159, 202);
+    line-height: 1.576;
+    -webkit-transform: matrix( 0.99412884330589,-0.10820278604219,0.10820278604219,0.99412884330589,0,0);
+    left: 187.02px;
+    top: 5px;
+    cursor: pointer;
+}
+.int{
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(41, 159, 202);
+    line-height: 3.467;
+    -webkit-transform: matrix( 0.9936960744977,-0.11210758907343,0.11210758907344,0.9936960744977,0,0);
+    left: 177.243px;
+    top: 35.126px;
+    cursor: pointer;
+}
+.menu ul{
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    left: 448.572px;
+    top: 20.986px;
+    width: 565px;
+    height: 19px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.plane img{
+    position: absolute;
+    z-index: 4;
+    left: 129px;
+    top: 119px;
+    width: 509px;
+    height: 280px;
+}
+.singapore{
+    font-size: 52px;
+    font-family: "a_BighausTitulBrk";
+    color: rgb(18, 126, 165);
+    font-weight: bold;
+    position: absolute;
+    left: 355.799px;
+    top: 217.001px;
+    z-index: 5;
+    cursor: pointer;
+}
+.cloud2{
+    position: absolute;
+    z-index: 3;
+    top: 303px;
+}
+.cloud1{
+    position: absolute;
+    z-index: 6;
+    top: 405px;
+}
+.summer{
+    font-size: 24px;
+    font-family: "a_CooperBlackNr";
+    color: rgb(222, 217, 14);
+    line-height: 1.16;
+    position: absolute;
+    left: 336.261px;
+    top: 297.687px;
+    z-index: 5;
+    font-weight: bold;
+    cursor: pointer;
+}
+.summer1{
+    font-size: 24px;
+    font-family: "a_CooperBlackNr";
+    color: rgb(222, 217, 14);
+    line-height: 1.16;
+    position: absolute;
+    left: 368.261px;
+    top: 273.687px;
+    z-index: 5;
+    font-weight: bold;
+    cursor: pointer;
+}
+.booking{
+    position: absolute;
+    left: 802px;
+    top: 84px;
+    width: 326px;
+    height: 557px;
+    z-index: 5;
+}
+.online{
+    position: absolute;
+    left: 789px;
+    top: 116px;
+    width: 236px;
+    height: 49px;
+    z-index: 6;
+}
+.onlinebooking p{
+    font-size: 21px;
+    font-family: "AGLettericaBoldBold";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 824.924px;
+    top: 124.863px;
+    z-index: 6;
+}
+.onlinebooking p:hover{
+    cursor: pointer;
+    padding: 2px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 185px;
+    position: absolute;
+    left: 881px;
+    top: 188px;
+    z-index: 6;
+}
+.form input{
+    width: 179px;
+    height: 20px;
+    border-radius: 10px;
+}
+select{
+    width: 183px;
+    height: 20px;
+    border-radius: 10px;
+}
+.name{
+    color: rgb(255, 255, 255);
+}
+.form button{
+    left: 85px;
+    top: 195px;
+    width: 97px;
+    height: 33px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(222, 217, 14);
+    font-size: 15px;
+    font-family: "AGLettericaBoldBold";
+    color: rgb(100, 175, 252);
+    position: absolute;
+    z-index: 9;
+}
+.sec1{
+    position: absolute;
+    z-index: 6;
+    width: 1098px;
+}
+.our{
+    display: flex;
+    justify-content: space-around;
+    width: 1278px;
+}
+.our p{
+    font-size: 29px;
+    font-family: "ABodoniNovaNrItalic";
+    color: rgb(255, 255, 255);
+    width: 230px;
+    height: 55px;
+}
+.sec2 p{
+    font-size: 17px;
+    width: 257px;
+}
+.sec2{
+    width: 355px;
+    height: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec2 img{
+    width: 82px;
+    height: 66px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.line1 p{
+    font-size: 15px;
+    font-family: "AGBenguiatCyrBook";
+    color: rgb(255, 255, 255);
+}
+.readmore button{
+    width: 270px;
+    height: 32px;
+    background-color: rgb(222, 217, 14);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "AGLettericaBoldBold";
+    color: rgb(100, 175, 252);
+    cursor: pointer;
+}
+.readmore p{
+    font-size: 27px;
+    font-family: "AGBenguiatCyrBook";
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+.readmore{
+    display: flex;
+    width: 191px;
+    height: 43px;
+}
+.price{
+    display: flex;
+    justify-content: end;
+}
+.tour{
+    width: 118px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 10px 10px 0px 0px;
+    color: rgb(18, 126, 165);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.photos:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: rgb(18, 94, 122);
+}
+.photos{
+    width: 118px;
+    height: 30px;
+    background-color: rgb(137, 191, 211);
+    opacity: 0.7;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+    border-radius: 10px 10px 0px 0px;
+}
+.sec3{
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 265px;
+}
+.sec4{
+    display: flex;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    font-size: 16px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255);
+}
+.text2 div{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.days div{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255);
+}
+.details div{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255); 
+}
+.sec5{
+    background-image: url(img/scroll\ shads.png);
+    width: 1280px;
+    height: 750px;
+    position: relative;
+    top: 230px;
+}
+.title p{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+.find{
+    font-size: 27px;
+    font-family: "AGLettericaBoldBold";
+    color: rgb(70, 144, 180);
+}
+.click{
+    font-size: 17px;
+    font-family: "AGLettericaBoldBold";
+    color: rgb(106, 181, 208);
+}
+.title{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 500px;
+}
+.sec6{
+    position: absolute;
+    bottom: 212px;
+    left: 315px;
+}
+.sec7{
+    display: flex;
+    margin-top: 10px;
+}
+.translation{
+    font-family: "Colaborate";
+    color: rgb(164, 164, 164);
+}
+.explain{
+    font-size: 14px;
+    font-family: "Colaborate";
+    color: rgb(164, 164, 164);
+}
+.africa{
+    font-size: 23px;
+    font-family: "Colaborate";
+    color: rgb(125, 125, 125);
+    position: absolute;
+    left: 357px;
+    bottom: 177px;
+}
+.sec8{
+    width: 1280px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(106, 181, 208);
+    position: absolute;
+    top: 1520px;
+}
+.sec9{
+    width: 350px;
+    height: 350px;
+}
+.sec9 p{
+    height: 50px;
+    font-size: 25px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 0px rgba(15, 111, 146, 0.75);
+    display: flex;
+    align-items: center; 
+}
+.sec10{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec10 input{
+    width: 201px;
+    height: 35px;
+    background-color: rgba(15, 111, 146, 0.75);
+    color: white;
+    font-size: 14px;
+    font-family: "Colaborate";
+    border-radius: 10px;
+}
+.butt{
+    width: 91px;
+    height: 39px;
+    font-size: 16px;
+    font-family: "Colaborate";
+    color: rgb(19, 128, 167);
+    border-radius: 10px;
+}
+.butt:hover{
+    cursor: pointer;
+    background-color: rgb(19, 128, 167);
+    color: white;
+}
+.icon{
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.contact{
+    font-size: 25px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 0px rgba(15, 111, 146, 0.75);
+    height: 50px; 
+    display: flex;
+    align-items: center; 
+}
+.sec11{
+    width: 300px;
+    height: 350px;
+}
+.info{
+    font-size: 17px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255); 
+    line-height: 1.929;       
+}
+.sec12{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+.sec12 input{
+    width: 201px;
+    height: 35px;
+    background-color: rgba(15, 111, 146, 0.75);
+    color: white;
+    font-size: 14px;
+    font-family: "Colaborate";
+    border-radius: 10px;
+}
+.sec12 p{
+    font-size: 25px;
+    font-family: "Colaborate";
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 0px rgba(15, 111, 146, 0.75);
+    height: 50px;  
+    display: flex;
+    align-items: center;
+}
+.sec12 div{
+    height: 50px;
+}

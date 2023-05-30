@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole{
+    width: 100%;
+    display: flex;    
+}
+.start{
+    width: 44%;
+    height: 657px;
+    background-image: url(https://i.pinimg.com/564x/ba/7e/ab/ba7eabcedd313bf934d35ccde3ac0782.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+.logo{
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+.logo h3{
+    font-family: monospace;
+    color: white;
+}
+.menu{
+    width: 335px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li:hover{
+    color: rgb(121, 219, 121);
+    border: 1px solid rgb(121, 219, 121);
+    cursor: pointer;
+}
+.text{
+    width: 100%;
+    height: 190px;
+    margin-top: 120px;
+}
+.text h1{
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.text p{
+    color: white;
+    text-align: center;
+}
+.button{
+    width: 116px;
+    height: 40px;
+    border: 2px solid white;
+}
+.button:hover{
+    background-color: rgb(121, 219, 121);
+    cursor: pointer;
+}
+.button p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 40px;
+}
+.but{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carcase{
+    width: 56%;
+    height: 657px;
+}
+.title h3{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu1 ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.menu1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+.menu1{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu1 ul li:hover{
+    cursor: pointer;
+    color: rgb(121, 219, 121);
+}
+.imgs img{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.section{
+    width: 80%;
+    height: 365px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    width: 100%;
+    height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs img:hover{
+    box-shadow: 5px 5px rgb(145, 144, 144);
+    cursor: pointer;
+    padding: 2px;
+}

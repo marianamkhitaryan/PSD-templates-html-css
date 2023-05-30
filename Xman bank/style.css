@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 100%;
+    height: 759px;
+    background-image: url(img/Layer\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.psd{
+    width: 80%;
+    height: 95%;
+    background-color: white;
+}
+.line1{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 90%;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu1 ul li{
+    list-style: none;
+    font-family: "HelveticaNeue";
+    color: rgb(89, 89, 89);
+    padding: 0 3.3% 0 0;
+}
+.menu1 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu1{
+    width: 25%;
+    height: 20px;
+    padding: 55px 0 0;
+}
+.menu1 ul li:hover{
+    color: rgb(226, 81, 81);
+    border-right: 1px solid rgb(89, 89, 89);
+    cursor: pointer;
+}
+.sec2{
+    background-image: url(img/Layer\ 10.png);
+    width: 90%;
+    height: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.menu2 ul li{
+    list-style: none;
+    font-family: "Helvetica";
+    color: rgb(236, 236, 236);
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu2 ul{
+    display: flex;
+    height: 100%; 
+}
+.menu2{
+    height: 100%;
+    width: 62%;
+}
+.menu2 ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.sec2 p{
+    font-family: "HelveticaLTStd";
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 0;
+}
+.gold{
+    width: 70%;
+    height: 310px;
+    background-image: url(img/gold.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    width: 28%;
+    height: 310px;
+    background-image: url(img/form.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 45px;
+    font-family: "BebasNeue";
+    color: rgb(246, 238, 121);
+    text-transform: uppercase;
+}
+.txt{
+    font-size: 20px;
+    font-family: "BebasNeue";
+    color: rgb(235, 232, 232);
+    text-transform: uppercase;
+    line-height: 1.107;  
+}
+.text1{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec4{
+    width: 90%;
+    height: 90%;
+}
+.sec4 p{
+    font-size: 15px;
+    font-family: "HelveticaNeueLT";
+    color: rgb(236, 236, 236);
+    text-transform: uppercase;
+}
+.info{
+    width: 100%;
+    height: 78px;
+}
+.login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.info input{
+    width: 100%;
+    height: 20px;
+}
+.name{
+    padding: 10px 0 0 0;
+}
+.checkbox{
+    font-size: 14px;
+    font-family: "HelveticaNeue";
+    color: rgb(228, 231, 231);
+}
+h3{
+    font-size: 14px;
+    font-family: "HelveticaNeue";
+    color: rgb(228, 231, 231);
+}
+.sec5{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.log{
+    width: 38%;
+    height: 34px;
+    font-size: 18px;
+    font-family: "HelveticaLTStd";
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    background-color: rgb(153, 14, 14);
+    cursor: pointer;
+}
+h4{
+    font-size: 20px;
+    font-family: "HelveticaNeueLT";
+    color: rgb(236, 236, 236);
+}
+.open{
+    height: 34px;
+    width: 70%;
+    font-size: 18px;
+    font-family: "HelveticaLTStd";
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    background-color: rgb(153, 14, 14);
+    cursor: pointer;
+}
+.sec6{
+    width: 90%;
+    height: 180px;
+    display: flex;
+}
+.specialty{
+    width: 40%;
+}
+.work{
+    width: 60%;
+}
+.our{
+    font-size: 22px;
+    font-family: "HelveticaNeueCE";
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+}
+.spec{
+    font-size: 22px;
+    font-family: "HelveticaNeueCE";
+    color: rgb(153, 14, 14);
+    font-weight: bold;
+    padding: 0 0 0 10px;
+}
+.text2{
+    display: flex;
+}
+.lorem{
+    display: flex;
+    padding: 20px 0 0 20px;
+    width: 80%;
+}
+.lorem1{
+    padding: 0 10px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.check{
+    background-image: url(img/Layer\ 28.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 146px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec7{
+    padding: 10px 0 0 0;
+}
+.sec8{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sec8 p{
+    font-size: 16px;
+    font-family: "HelveticaNeue";
+    color: rgb(115, 112, 112);
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.sec9{
+    padding: 21px 0 0 0;
+}
+.sec10{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec10 p{
+    font-size: 20px;
+    font-family: "BebasNeue";
+    color: rgb(235, 232, 232);
+    text-transform: uppercase;
+}
+.sec11{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec11 p{
+    font-size: 16px;
+    font-family: "Helvetica";
+    color: rgb(236, 236, 236);
+}
+
+
+
+
+
+

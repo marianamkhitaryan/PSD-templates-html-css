@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    width: 100%;
+    height: 670px;
+    background-image: url(img/BACKGROUND.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 70%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+    color: rgb(0, 224, 208);
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    width: 60%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sec2{
+    width: 50%;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.we{
+    font-size: 32px;
+    font-family: "PlayfairDisplay";
+    color: rgb(255, 255, 255);
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.line1{
+    background-color: rgb(0, 224, 208);
+    width: 10%;
+    height: 1px;    
+}
+.lorem{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.learn{
+    border: 1px solid rgb(0, 224, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 42px;
+    cursor: pointer;
+}
+.learn p{
+    font-size: 16px;
+    font-family: "HammersmithOne";
+    color: rgb(0, 224, 208);
+    text-transform: uppercase;
+}
+.dot{
+    width: 16%;
+    height: 90%;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    height: 13px;
+}
+.dot:hover{
+    background-color: rgb(0, 224, 208);
+    border: 1px solid rgb(0, 224, 208);
+    cursor: pointer;
+}
+.sec4{
+    width: 100%;
+    height: 403px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5{
+    width: 60%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    width: 60%;
+}
+.learn1{
+    border: 1px solid rgb(0, 224, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 42px;
+    cursor: pointer;
+}
+.learn1 p{
+    font-size: 16px;
+    font-family: "HammersmithOne";
+    color: rgb(0, 224, 208);
+    text-transform: uppercase;
+}
+.our{
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+    height: 45px;
+}
+.lorem1{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(65, 61, 75, 0.749);
+    line-height: 1.571;
+    height: 95px;      
+}
+.sec6{
+    width: 100%;
+    height: 550px;
+    background-image: url(img/overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec7 p{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+.sec7{
+    width: 11%;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec8{
+    height: 755px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec10{
+    height: 590px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sec9{
+    width: 33%;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exp{
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+}
+.lorem2{
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgba(47, 45, 53, 0.749);
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.line2{
+    background-color: rgb(65, 61, 75);
+    opacity: 0.302;
+    width: 15%;
+    height: 2px; 
+}
+.sec11{
+    width: 100%;
+    height: 510px;
+    padding: 50px 0 0 0;
+}
+.row{
+    display: flex;
+}
+.info{
+    width: 33%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: black;
+    font-weight: bold;
+}
+.lorem3{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(51, 51, 51, 0.749);
+}
+.sec12{
+    width: 100%;
+    height: 715px;
+    background-image: url(img/overlay1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec13{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meet{
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.lorem4{
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(249, 249, 249);
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.line3{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    width: 14%;
+    height: 2px;
+}
+.sec15{
+    height: 423px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details{
+    width: 23%;
+    height: 80%;
+    border: 1px solid rgb(225, 225, 225);
+}
+.white{
+    background-color: rgb(225, 225, 225);
+    width: 100%;
+    height: 75%;
+}
+.title2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.semf{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.ceo{
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgba(250, 250, 250, 0.702);
+}
+.sec16{
+    height: 147px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec16 p{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(243, 243, 243);
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.hiring{
+    width: 16%;
+    height: 43px;
+    border: 1px solid rgb(0, 224, 208);
+    color: rgb(0, 224, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sec17{
+    width: 100%;
+    height: 740px;
+}
+.works{
+    width: 60%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec18{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourr{
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+}
+.see{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(65, 61, 75);
+    width: 22%;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec19 img{
+    width: 100%;
+    height: 400px;
+}
+.load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+}
+.more{
+    width: 10%;
+    height: 43px;
+    border: 1px solid rgb(0, 224, 208);
+    color: rgb(0, 224, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.sec20{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/overlay3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec21{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: "PlayfairDisplay";
+    color: rgba(255, 255, 255, 0.902);
+}
+.lorem5{
+    font-size: 16px;
+    font-family: "PlayfairDisplay";
+    color: rgba(255, 255, 255, 0.851);
+    line-height: 1.625;
+}
+.jane{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+}
+.ceoo{
+    font-size: 11px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.702);
+}
+.text3{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgs{
+    width: 50%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 3%;
+    height: 19%;
+}
+.people{
+    width: 12%;
+    height: 54%;
+}
+.people:hover{
+    width: 16%;
+    height: 70%;
+    cursor: pointer;
+}
+.sec22{
+    width: 100%;
+    height: 655px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec23{
+    height: 521px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.form p{
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+.inp{
+    height: 48px;
+    margin-top: 20px;
+}
+.massage{
+    height: 200px;
+    margin-top: 20px;
+}
+.sub{
+    width: 26%;
+    height: 43px;
+    border: 1px solid rgb(0, 224, 208);
+    color: rgb(0, 224, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.client p{
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb(65, 61, 75);
+    font-weight: bold;
+}
+.client{
+    width: 46%;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    justify-content: space-between;
+    height: 415px;
+}
+.sec24{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sec25{
+    width: 100%;
+    height: 402px;
+    background-image: url(img/overlay5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec26{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec27{
+    width: 100%;
+    height: 181px;
+    display: flex;
+    justify-content: space-between;
+}
+.lorem6{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.857;
+    padding: 20px 0;
+}
+.sec28{
+    width: 30%;
+}
+.stay{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.phone p{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.857;
+    padding: 0 5px;
+}
+.phone{
+    padding: 27px 0;
+    display: flex;
+}
+.phone img{
+    width: 20px;
+    height: 20px;
+}
+.soc{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socicon:hover{
+    cursor: pointer;
+    background-color: rgb(0, 224, 208);
+}
+.footer{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu1 ul{
+    display: flex;
+}
+.menu1 ul li{
+    list-style: none;
+    padding: 0 25px 0 0;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);      
+}
+.rights p{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+}
+.menu1 ul li:hover{
+    color: rgb(0, 224, 208);
+    cursor: pointer;
+}

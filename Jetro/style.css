@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:-webkit-pictograph;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jet{
+    color: rgb(224, 60, 0);
+    cursor: pointer;
+    font-size: 40px;
+}
+.ro{
+    color: rgb(245, 163, 133);
+    cursor: pointer;
+    font-size: 40px;
+}
+.header ul{
+    margin-left: 20%;
+}
+.header ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.header ul li:hover{
+    color: rgb(224, 60, 0);
+}
+.selected{
+    color: rgb(224, 60, 0);
+}
+.pf{
+    background-color:rgb(224, 60, 0) ;
+    width: 785px;
+    height: 45px;
+    
+}
+h1{
+    font-size: 25px;
+    margin-left: 2%;
+    color: white;
+}
+.pf1{
+    height: 45px;
+    width: 270px;
+    background-color: rgb(245, 163, 133);
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cg ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+}
+.cg ul li:hover{
+    background-color:rgb(224, 60, 0) ;
+}
+.sel{
+    width: 43px;
+    height: 30px;
+    background-color: rgb(224, 60, 0);
+    display: inline;
+    padding: 0;
+}
+.cg{
+    width: 79%;
+    height: 95px;
+    align-items: center;
+    display: flex;
+    margin-left: 20.6%;
+}
+.body{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 785px;
+    margin-left: 21.3%;
+}
+.body img{
+    width: 180px;
+    height: 155px;
+    background: url(http://cdn.onlinewebfonts.com/svg/img_26521.png);
+    display: inline-block;
+}
+.column{
+    display: inline;
+    margin-bottom: 40px;
+}
+.category{
+    width: 180px;
+    height: 200px;
+    border: 1px solid rgb(158, 157, 157);
+    margin-bottom: 45px;
+}
+.body h6{
+    color: rgb(224, 60, 0);
+}
+.body img:hover{
+    cursor: pointer;
+}
+.ft{
+    background-color:rgb(224, 60, 0) ;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    width: 785px;
+}
+.ft1{
+    width: 270px;
+    height: 300px;
+    background-color: rgb(245, 163, 133);
+}
+.portfolio h3{
+    color: white;
+}
+.ft div{
+    width: 255px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.portfolio h6{
+    color: white;
+    margin-top: 15px;
+}
+.ft img{
+    width: 80px;
+    height: 48px;
+}
